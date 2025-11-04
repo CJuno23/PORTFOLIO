@@ -24,7 +24,6 @@ ul li a {
 img {
     display: block;
     max-width: 100%;
-    width: 150px;
 }
 .projects {
     display: flex;
@@ -42,4 +41,16 @@ img {
     width: 200px;
     display: block;
     border-radius: 7px;
+}
+.hero {
+    background-image: url(me.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+}
+.hero-left {
+    color: white;
+    font-weight: bold;
 }

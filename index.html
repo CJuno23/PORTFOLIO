@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favi.png">
     <script src="script.js" defer></script>
 </head>
 <body>
     <header class="header">
         <nav class="main-nav-bar">
+                <h1 class="logo">A</h1>
             <ul class="nav-bar">
-                <h1>LOGO HERE</h1>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
@@ -19,59 +23,63 @@
             </ul>
         </nav>
     </header>
-    <main class="hero">
-        <section class="hero-left">
-            <h2>Hi, I'm Juno-</h2>
-            <p>a Frontend Developer</p>
-            <p>I build clean and responsive web experiences.</p>
-            <button>View My Work</button>
-            <button>Read My Blog</button>
+    <main class="container">
+        <section class="hero">
+            <section class="hero-left">
+                <h2>Hi, I'm Juno-</h2>
+                <p>a Frontend Developer</p>
+                <p>I build clean and responsive web experiences.</p>
+                <button class="buttons-work-live">View My Work</button>
+                <button class="buttons-blog-code">Read My Blog</button>
+            </section>
+        </section>
+        <section class="main-projects">
+            <h3 class="center">Featured Projects</h3>
+                <section class="projects">
+                    <section class="nft-project flex-column project-box">
+                        <img src="viber_image_2025-10-29_15-35-46-795.jpg" class="img-projects">
+                        <h4>NFT Preview Card</h4>
+                        <p class="center">A clean card layout using HTML & CSS.</p>
+                        <section class="flex-not-column">
+                            <a href="https://cjuno23.github.io/NFT-Preview-Card/" target="_blank">
+                                <button class="buttons-work-live">View Live</button>
+                            </a>
+                            <a href="https://github.com/CJuno23/NFT-Preview-Card.git" target="_blank">
+                                <button class="buttons-blog-code">View Code</button>
+                            </a>
+                        </section>
+                    </section>
+                    <section class="banking-project flex-column project-box">
+                        <img src="viber_image_2025-10-29_15-41-55-665.jpg" class="img-projects">
+                        <h4>Calculator</h4>
+                        <p class="center">A basic calculator with four operators.</p>
+                        <section class="flex-not-column">
+                            <a href="https://cjuno23.github.io/Calculator/" target="_blank">
+                                <button class="buttons-work-live">View Live</button>
+                            </a>
+                            <a href="https://github.com/CJuno23/Calculator.git" target="_blank">
+                                <button class="buttons-blog-code">View Code</button>
+                            </a>
+                        </section>
+                    </section>
+                    <section class="rock-paper-scissors flex-column-no-gap project-box">
+                        <img src="viber_image_2025-10-29_15-46-32-569.jpg" class="img-projects">
+                        <h4>Rock Paper Scissors</h4>
+                        <p class="center">Built with JS with scoreboard and display wins.</p>
+                        <section class="flex-not-column">
+                            <a href="https://cjuno23.github.io/Rock-Paper-Scissor/" target="_blank">
+                                <button class="buttons-work-live">View Live</button>
+                            </a>
+                            <a href="https://github.com/CJuno23/Rock-Paper-Scissor.git" target="_blank">
+                                <button class="buttons-blog-code">View Code</button>
+                            </a>
+                        </section>                     
+                    </section>
+                </section>
         </section>
     </main>
-    <section class="main-projects">
-        <h3 class="center">Featured Projects</h3>
-            <section class="projects">
-                <section class="nft-project flex-column">
-                    <img src="viber_image_2025-10-29_15-35-46-795.jpg" class="img-projects">
-                    <h4>NFT Preview Card</h4>
-                    <p>A clean card layout using HTML & CSS.</p>
-                    <section class="flex-not-column">
-                        <a href="https://cjuno23.github.io/NFT-Preview-Card/" target="_blank">
-                            <button>View Live</button>
-                        </a>
-                        <a href="https://github.com/CJuno23/NFT-Preview-Card.git" target="_blank">
-                            <button>View Code</button>
-                        </a>
-                    </section>
-                </section>
-                <section class="banking-project flex-column">
-                    <img src="viber_image_2025-10-29_15-41-55-665.jpg" class="img-projects">
-                    <h4>Calculator</h4>
-                    <p>A basic calculator with four operators.</p>
-                    <section class="flex-not-column">
-                        <a href="https://cjuno23.github.io/Calculator/" target="_blank">
-                            <button>View Live</button>
-                        </a>
-                        <a href="https://github.com/CJuno23/Calculator.git" target="_blank">
-                            <button>View Code</button>
-                        </a>
-                    </section>
-
-                </section>
-                <section class="rock-paper-scissors flex-column">
-                    <img src="viber_image_2025-10-29_15-46-32-569.jpg" class="img-projects">
-                    <h4>Rock Paper Scissors</h4>
-                    <p>Built with JS with scoreboard and display wins.</p>
-                    <section class="flex-not-column">
-                        <a href="https://cjuno23.github.io/Rock-Paper-Scissor/" target="_blank">
-                            <button>View Live</button>
-                        </a>
-                        <a href="https://github.com/CJuno23/Rock-Paper-Scissor.git" target="_blank">
-                            <button>View Code</button>
-                    </section>
-                    </a>
-                </section>
-            </section>
-    </section>
+    <footer class="footer">
+        <p>&copy; All right reserved 2025</p>
+    </footer>
 </body>
 </html>

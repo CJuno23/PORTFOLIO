@@ -53,13 +53,16 @@ img {
     display: block;
     border-radius: 7px;
 }
-.hero {
+/*.hero {
     background-image: url(me.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 30%;
     height: 600px;
     width: 100%;
+}*/
+.hero {
+   background: linear-gradient(135deg, #222 40%, #f4b400);
 }
 .hero-left {
     padding: 2rem;
@@ -126,7 +129,14 @@ img {
     color: #fff;
     transition: all 0.5s ease;
 }
+button:hover {
+    padding: 15px;
+    transition: all 0.5s ease;
+}
 button:active {
     transform: scale(1.5);
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+a {
+    text-decoration: none;
 }

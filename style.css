@@ -36,7 +36,7 @@ img {
 }
 .projects {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 .center {
@@ -139,4 +139,23 @@ button:active {
 }
 a {
     text-decoration: none;
+}
+.carousel {
+    overflow: hidden;
+    padding: 20px 0;
+}
+.tracks {
+    display: flex;
+    gap: 20px;
+    animation: slideLeft 18s linear infinite;
+    width: max-content;
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-50%));
+    }
 }

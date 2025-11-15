@@ -41,7 +41,6 @@ img {
 }
 .center {
     text-align: center;
-    padding: 0.75rem 0;
 }
 .main-projects {
     background-color: #fff;
@@ -83,6 +82,9 @@ img {
     text-align: center;
     padding: 1.3rem 0;
     background-color: #f4b400;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 .project-box {
     background-color: rgba(241, 235, 235, 0.5);
